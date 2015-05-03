@@ -4,3 +4,6 @@ h1, body {
 body {
 	background-color: white;
 }
+#slogan {
+	font-style: italic;
+}
