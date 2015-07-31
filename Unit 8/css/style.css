@@ -1,0 +1,65 @@
+h1 {
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+}
+
+#slogan {
+	font-weight: 500;
+	font-size: 28px;
+	width: 50%;
+
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p {
+	text-align: left;
+}
+
+body {
+	color: #FFFFFF;
+	text-align: left;
+	background-color: white;
+	font-family: 'Neuton', serif;
+	background: url("https://download.unsplash.com/reserve/zU6fwmDaSVWZdCXcZfot_IMG_3838.JPG");
+    background-size: cover;
+}
+
+
+
+ul {
+	font-size: 16px;
+	font-weight: 500;
+	float: left;
+	width: 50%;
+	text-align: left;
+	list-style: none;
+	display: inline;
+}
+
+#symbol {
+	font-size: 26px;
+	font-style: bold;
+	width: 40%;
+}
+
+#contact {
+
+    text-align: center;
+	font-weight:900; 
+	font-size: 18px;
+	width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+	#contact {float: none;}
+
+	ul {
+		margin: 0.16em .75em 0;
+	}
+}
